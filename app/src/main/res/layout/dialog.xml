@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="380dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/khungtieude"
+        android:background="#fff"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imageavata"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/coffeehousecoffee">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ten"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cà phê lúa mạch đá"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/gia"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="69.000 đ"
+                android:layout_below="@id/ten"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favourite"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/gia"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yêu thích"
+                android:layout_below="@id/gia"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="10dp"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/imb_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="160dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_close_24" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giớ thiệu món"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:background="#D2D1D7"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Đắm chìm vào hương vị cà phê mới mẻ khi kết hợp cùng láu mạch thơm ngon. Không quá đắng lại ngọt dịu dễ ghiền. Thưởng thức ngay nhé"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_remove_circle_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:text="1"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_add_circle_24"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonemail"
+            android:text="69.000 đ"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
